@@ -1,0 +1,841 @@
+[
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hello, can you help me with something?"
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Of course! What can I assist you with today?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "I need to find a good Italian restaurant near me."
+        },
+        {
+            "role": "assistant",
+            "type": "context_search",
+            "context_query": "user's location"
+        },
+        {
+            "role": "system",
+            "type": "context_response",
+            "response": "San Francisco, California"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "best Italian restaurant in San Francisco"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Trattoria Contadina is a highly-rated Italian restaurant in San Francisco."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Trattoria Contadina is a highly-rated Italian restaurant near your location."
+        },
+        {
+            "role": "assistant",
+            "type": "confirmation",
+            "content": "Would you like me to make a reservation for you?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "Yes, please."
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "make a reservation at Trattoria Contadina"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Reservation made for 7pm."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "I've made a reservation for you at Trattoria Contadina for 7pm."
+        },
+        {
+            "role": "assistant",
+            "type": "confirmation",
+            "content": "Is there anything else you need assistance with?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "No, thank you."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome! Don't hesitate to ask if you need anything else."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hello, can you tell me the weather today?"
+        },
+        {
+            "role": "assistant",
+            "type": "context_search",
+            "context_query": "user's location"
+        },
+        {
+            "role": "system",
+            "type": "context_response",
+            "response": "New York, NY"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "weather in New York, NY"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "It's 20 degrees Celsius with a chance of rain."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Today in New York, it's 20 degrees Celsius with a chance of rain."
+        },
+        {
+            "role": "assistant",
+            "type": "confirmation",
+            "content": "Do you need to know the weather for another location?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "No, that's all. Thank you."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome! If you have any other questions, feel free to ask."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hey, can you recommend a good movie?"
+        },
+        {
+            "role": "assistant",
+            "type": "context_search",
+            "context_query": "user's movie preferences"
+        },
+        {
+            "role": "system",
+            "type": "context_response",
+            "response": "User prefers action movies."
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "best action movies 2023"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "'Defender of the Galaxy' is the highest-rated action movie of 2023."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "'Defender of the Galaxy' is a highly-rated action movie from this year. Would you like to watch it?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "Yes, where can I watch it?"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "where to watch Defender of the Galaxy"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "'Defender of the Galaxy' is available on Netflix."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "'Defender of the Galaxy' is available to watch on Netflix."
+        },
+        {
+            "role": "assistant",
+            "type": "confirmation",
+            "content": "Would you like to know about more movies?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "No, that's all for now. Thank you."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome! Enjoy your movie."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hello, I'm looking for a good pasta recipe. Can you help me find one?"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "best pasta recipe"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Spaghetti Carbonara is a highly-rated pasta recipe."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "I found a highly-rated recipe for Spaghetti Carbonara. Would you like the details?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "Yes, please."
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "Spaghetti Carbonara recipe"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Recipe details for Spaghetti Carbonara."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Here are the details for the Spaghetti Carbonara recipe..."
+        },
+        {
+            "role": "assistant",
+            "type": "confirmation",
+            "content": "Is there anything else you would like to know?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "No, that's all. Thank you."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome! Enjoy your cooking!"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hey, what's the latest news today?"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "latest news"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Latest news headlines."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Here are the latest news headlines..."
+        },
+        {
+            "role": "assistant",
+            "type": "confirmation",
+            "content": "Would you like to know more about any specific news item?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "No, that's fine. Thank you."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome! If you have more questions, feel free to ask."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hi there, can you help me with the weather?"
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Sure! Please tell me the location you'd like the weather for."
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "What's the weather like in New York today?"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "New York weather today"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Today's weather is 75°F with partly cloudy skies."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Today's weather in New York is 75°F with partly cloudy skies."
+        },
+        {
+            "role": "assistant",
+            "type": "confirmation",
+            "content": "Do you need weather information for any other location?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "No, thank you."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome!"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "text": "Hello! Can you recommend a good restaurant for dinner in this area?"
+        },
+        {
+            "role": "assistant",
+            "type": "context_search",
+            "context_query": "user's location"
+        },
+        {
+            "role": "system",
+            "type": "context_response",
+            "response": "You're in Main Street. Can you tell me what type of cuisine you're interested in?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "text": "I'm in the mood for Italian food."
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "best italian restaurants in main street"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Here are the top 3 Italian restaurants in Main Street: 1) ABC Italian Restaurant, 2) XYZ Trattoria, 3) Italian Eat "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hi, can you help me find a good place to eat dinner near my hotel?"
+        },
+        {
+            "role": "assistant",
+            "type": "context_search",
+            "context_query": "user's location"
+        },
+        {
+            "role": "system",
+            "type": "context_response",
+            "response": "Your current location is 123 Main Street."
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "best restaurants near 123 Main Street"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Here are the top 3 restaurants near you: 1. Marlowe Restaurant & Bar. 2. Old Curiosity Tea Shop. ROLL ME UP ICE CREAM"
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Based on your location, the best restaurants near you are: Marlowe Restaurant & Bar. 2. Old Curiosity Tea Shop and ROLL ME UP ICE CREAM. Which one would you like to try?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "I would like to try Marlowe Restaurant."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Would you like me to make a reservation for you?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "Yes, please."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "What time?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "21 pm."
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Reservation made for 21pm."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "I've made a reservation for you at Marlowe Restaurant. for 21pm."
+        },
+        {
+            "role": "assistant",
+            "type": "confirmation",
+            "content": "Is there anything else you need assistance with?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "No, thank you."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome!"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hello, I need some advice on improving my job search."
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "tips for improving job search"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Here are some tips to improve job search: 1. Customize your resume for each job application 2. Network with professionals 3. Use social media to showcase your skills and experience 4. Attend job fairs 5. Follow up on job applications and interviews."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Based on your query here are some tips to improve your job search: customize your resume for  each job application, network with professionals, use social media to showcase your skills and experience, attend job fairs, and follow up on job applications and interviews. Do you have any other questions or do you need further advice?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "I haven't had much success with networking, do you have any advice on that?"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "tips for successful networking"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Here are some tips for successful networking: 1. Attend networking events in your industry 2. Connect with professionals on social media 3. Offer help and advice to others in your industry 4. Follow up with contacts regularly 5. Be authentic and genuine in your interactions."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Some tips for successful networking include attending networking events in your industry, connecting with professionals on social media, offering help and advice to others in your industry, following up with contacts regularly, and being authentic and genuine in your interactions. I hope this helps! Do you have any other questions?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "No, that's all for now. Thank you!"
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome! If you have any other questions, feel free to ask."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "type": "greeting",
+            "content": "Hi, I need help with a daily routine."
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "tips for a healthy daily routine"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Here are some tips for a healthy daily routine: 1. Start your day with a glass of warm water with lemon to boost digestion 2. Practice some form of physical activity or exercise every day 3. Eat a balanced diet with plenty of fruits and vegetables 4. Take breaks throughout the day to stretch and move your body 5. Prioritize getting enough sleep each night."
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "Based on your query, here are some tips for a healthy daily routine: start your day with a glass of warm water with lemon to boost digestion, practice some form of physical activity or exercise every day, eat a balanced diet with plenty of fruits and vegetables, take breaks throughout the day to stretch and move your body, and prioritize getting enough sleep each night. Do you have any other questions or do you need further advice?"
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "I struggle with getting enough sleep, do you have any specific tips for that?"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "tips for better sleep"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Here are some tips for better sleep: 1. Stick to a consistent sleep schedule "
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "One of the tips for better sleep is sticking to a consistent sleep schedule "
+        },
+        {
+            "role": "user",
+            "type": "request",
+            "content": "Ok. Thank you!"
+        },
+        {
+            "role": "assistant",
+            "type": "response",
+            "content": "You're welcome! If you have any other questions, feel free to ask."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "prompt": "Hey there, how are you?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "Hello! I'm doing well, thank you. How about you?"
+        },
+        {
+            "role": "user",
+            "prompt": "I'm good, thanks for asking. How's your day been?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "As an AI, I don't experience days, but I'm always here to help. What can I do for you today?"
+        },
+        {
+            "role": "user",
+            "prompt": "What are some polite ways to greet someone?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "Here are some polite greetings: 'Hello', 'Hi', 'Good morning', 'Good afternoon', 'Good evening', and 'Nice to meet you'."
+        },
+        {
+            "role": "user",
+            "prompt": "What's a good topic for small talk?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "A good topic for small talk could be the weather, recent news, hobbies, or asking about someone's day."
+        },
+        {
+            "role": "user",
+            "prompt": "How do I apologize sincerely?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "To apologize sincerely, acknowledge your mistake, express genuine remorse, and offer to make amends if necessary. For example: 'I'm really sorry for my mistake; I didn't mean to hurt you. How can I make it up to you?'"
+        },
+        {
+            "role": "user",
+            "prompt": "What are some common expressions of gratitude?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "Some common expressions of gratitude are: 'Thank you', 'I appreciate it', 'I'm grateful for your help', and 'Thanks a lot'."
+        },
+        {
+            "role": "user",
+            "prompt": "How do I ask for help politely?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "To ask for help politely, you can start with a phrase like 'Could you please' or 'Would you mind', followed by your request. For example: 'Could you please help me carry this bag?' or 'Would you mind giving me directions to the nearest library?'"
+        },
+        {
+            "role": "user",
+            "prompt": "What's the best way to give someone a compliment?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "The best way to give someone a compliment is to be genuine and specific. For example: 'I really admire your dedication to your work; you always give your best effort.' or 'You have a great sense of style; I love how you've put together that outfit.'"
+        },
+        {
+            "role": "user",
+            "prompt": "How can I ask someone to repeat themselves without sounding rude?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "You can politely ask someone to repeat themselves by using phrases like 'I'm sorry, could you please repeat that?' or 'Pardon me, I didn't quite catch that. Can you say it again?'"
+        },
+        {
+            "role": "user",
+            "prompt": "What are some ways to end a conversation politely?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "Here are some ways to end a conversation politely: 'It was nice talking to you!', 'Thanks for the chat, I should get going now.', 'I've enjoyed our conversation, but I need to head off', and 'Let's catch up again soon!'"
+        },
+        {
+            "role": "user",
+            "prompt": "What should I do if I accidentally interrupt someone?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "If you accidentally interrupt someone, you can quickly apologize and encourage them to continue. For example: 'I'm sorry for interrupting you, please go ahead.' or 'My apologies, I didn't mean to cut you off. Please continue.'"
+        },
+        {
+            "role": "user",
+            "prompt": "How do I politely decline an invitation?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "When declining an invitation politely, it's important to thank the person for inviting you and provide a brief explanation for your unavailability. For example: 'Thank you for the invitation, but I have a prior commitment that I can't miss. I hope to join you next time.'"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "prompt": "Recommend me some popular movies.",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "popular movies"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Pulp Fiction, Shawshank Redemption, The Godfather, The Dark Knight, Inception"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "Here are some popular movies: Pulp Fiction, Shawshank Redemption, The Godfather, The Dark Knight, and Inception."
+        },
+        {
+            "role": "user",
+            "prompt": "What are the top-rated TV shows right now?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "top-rated TV shows"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Breaking Bad, The Wire, Game of Thrones, The Sopranos, Stranger Things"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "The top-rated TV shows right now are Breaking Bad, The Wire, Game of Thrones, The Sopranos, and Stranger Things."
+        },
+        {
+            "role": "user",
+            "prompt": "Tell me a trivia about Pulp Fiction.",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "Pulp Fiction trivia"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "The dance scene between John Travolta and Uma Thurman was actually improvised and choreographed by the actors themselves."
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "Did you know that the dance scene between John Travolta and Uma Thurman in Pulp Fiction was actually improvised and choreographed by the actors themselves?"
+        },
+        {
+            "role": "user",
+            "prompt": "Tell me a joke.",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "Why don't scientists trust atoms? Because they make up everything."
+        },
+        {
+            "role": "user",
+            "prompt": "Can you suggest a fun game for a group of friends?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "A fun game for a group of friends is 'Mafia'. It's a social deduction game where players take on roles of mafia members, town members, or special characters, and try to eliminate the other side by voting on suspects and using their abilities during the night."
+        },
+        {
+            "role": "user",
+            "prompt": "What is the highest-grossing movie of all time?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "highest-grossing movie of all time"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Avatar"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "The highest-grossing movie of all time is 'Avatar'."
+        },
+        {
+            "role": "user",
+            "prompt": "What are some great sci-fi movies to watch?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "great sci-fi movies"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Blade Runner, The Matrix, 2001: A Space Odyssey, Interstellar, Ex Machina"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "Some great sci-fi movies to watch are Blade Runner, The Matrix, 2001: A Space Odyssey, Interstellar, and Ex Machina."
+        },
+        {
+            "role": "user",
+            "prompt": "Who is the most awarded actor?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "most awarded actor"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Katharine Hepburn"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "The most awarded actor is Katharine Hepburn."
+        },
+        {
+            "role": "user",
+            "prompt": "What are the best video games to play with friends?",
+            "type": "greeting"
+        },
+        {
+            "role": "assistant",
+            "type": "web_search",
+            "web_query": "best video games to play with friends"
+        },
+        {
+            "role": "system",
+            "type": "web_response",
+            "response": "Mario Kart, Overcooked, Super Smash Bros, Rocket League, Among Us"
+        },
+        {
+            "role": "assistant",
+            "type": "direct_response",
+            "response": "The best video games to play with friends include Mario Kart, Overcooked, Super Smash Bros, Rocket League, and Among Us."
+        }
+    ]
+]

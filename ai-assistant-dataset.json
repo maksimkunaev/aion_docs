@@ -1,0 +1,1549 @@
+[
+    {
+        "question": "How to make a homemade pizza?",
+        "label": "web_search",
+        "web_query": "homemade pizza recipe"
+    },
+    {
+        "question": "What are the seven wonders of the world?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Where did I leave my keys?",
+        "label": "context_history",
+        "context_query": "user's keys location"
+    },
+    {
+        "question": "What time does the store close?",
+        "label": "request_info",
+        "request_query": "Which store are you referring to?"
+    },
+    {
+        "question": "Is it going to rain on Saturday?",
+        "label": "request_info",
+        "request_query": "Please provide the location you want the weather information for."
+    },
+    {
+        "question": "What is the tallest mountain on Earth?",
+        "label": "web_search",
+        "web_query": "tallest mountain on Earth"
+    },
+    {
+        "question": "How do plants make their own food?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How many continents are there?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Which country has the largest population?",
+        "label": "web_search",
+        "web_query": "country with largest population"
+    },
+    {
+        "question": "What was the score of my favorite team's game yesterday?",
+        "label": "request_info",
+        "request_query": "Which is your favorite team?"
+    },
+    {
+        "question": "What materials are needed for a science experiment?",
+        "label": "request_info",
+        "request_query": "Which science experiment are you referring to?"
+    },
+    {
+        "question": "What movie should I watch tonight?",
+        "label": "context_history",
+        "context_query": "movies previously discussed"
+    },
+    {
+        "question": "What time does the event start?",
+        "label": "context_history",
+        "context_query": "details about the event"
+    },
+    {
+        "question": "How do I get to my destination?",
+        "label": "request_info",
+        "request_query": "What is your current location and where is your destination?"
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "label": "web_search",
+        "web_query": "tallest mountain in the world"
+    },
+    {
+        "question": "How do I cook spaghetti?",
+        "label": "web_search",
+        "web_query": "how to cook spaghetti"
+    },
+    {
+        "question": "What was the score of yesterday's soccer match?",
+        "label": "request_info",
+        "request_query": "Which soccer match are you referring to?"
+    },
+    {
+        "question": "Did you take my keys?",
+        "label": "context_history",
+        "context_query": "user's keys"
+    },
+    {
+        "question": "What makes a rainbow?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How old is the Earth?",
+        "label": "web_search",
+        "web_query": "age of the Earth"
+    },
+    {
+        "question": "When is our next meeting?",
+        "label": "context_history",
+        "context_query": "next meeting"
+    },
+    {
+        "question": "What's the best way to get a good night's sleep?",
+        "label": "web_search",
+        "web_query": "best way to get a good night's sleep"
+    },
+    {
+        "question": "How do I say 'hello' in Italian?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What did I ask you about earlier?",
+        "label": "context_history",
+        "context_query": "previous user question"
+    },
+    {
+        "question": "How do I make a website?",
+        "label": "web_search",
+        "web_query": "create a website"
+    },
+    {
+        "question": "What's the weather like tomorrow?",
+        "label": "request_info",
+        "request_query": "In what location you want to get the weather tomorrow?"
+    },
+    {
+        "question": "What is the speed of light?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What was the last movie I watched?",
+        "label": "context_history",
+        "context_query": "last movie watched"
+    },
+    {
+        "question": "How to cook pasta?",
+        "label": "web_search",
+        "web_query": "cook pasta"
+    },
+    {
+        "question": "Where is the nearest grocery store?",
+        "label": "request_info",
+        "request_query": "What is your current location?"
+    },
+    {
+        "question": "What is photosynthesis?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What time did I go to bed last night?",
+        "label": "context_history",
+        "context_query": "bedtime last night"
+    },
+    {
+        "question": "How to tie a tie?",
+        "label": "web_search",
+        "web_query": "tie a tie"
+    },
+    {
+        "question": "What was my dream last night?",
+        "label": "context_history",
+        "context_query": "dream last night"
+    },
+    {
+        "question": "What are the main ingredients in pizza?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What's the distance from the Earth to the Moon?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How to change a flat tire?",
+        "label": "web_search",
+        "web_query": "change flat tire"
+    },
+    {
+        "question": "When is my next doctor's appointment?",
+        "label": "context_history",
+        "context_query": "next doctor's appointment"
+    },
+    {
+        "question": "What are some benefits of exercise?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What's a good recipe for chocolate chip cookies?",
+        "label": "web_search",
+        "web_query": "chocolate chip cookies recipe"
+    },
+    {
+        "question": "What time is the basketball game tonight?",
+        "label": "request_info",
+        "request_query": "Which basketball game are you referring to?"
+    },
+    {
+        "question": "What book am I currently reading?",
+        "label": "context_history",
+        "context_query": "current book reading"
+    },
+    {
+        "question": "How to do a headstand in yoga?",
+        "label": "web_search",
+        "web_query": "headstand yoga"
+    },
+    {
+        "question": "What plans do I have for the weekend?",
+        "label": "context_history",
+        "context_query": "weekend plans"
+    },
+    {
+        "question": "What are the side effects of this medication?",
+        "label": "request_info",
+        "request_query": "What medication are you referring to?"
+    },
+    {
+        "question": "What is the boiling point of water?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How to do basic knitting?",
+        "label": "web_search",
+        "web_query": "basic knitting"
+    },
+    {
+        "question": "What day did I start my new job?",
+        "label": "context_history",
+        "context_query": "new job start date"
+    },
+    {
+        "question": "What are the world's top 10 largest countries?",
+        "label": "web_search",
+        "web_query": "top 10 largest countries"
+    },
+    {
+        "question": "What is the next concert I plan to attend?",
+        "label": "context_history",
+        "context_query": "next concert attending"
+    },
+    {
+        "question": "What are the benefits of mindfulness?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How to create a budget?",
+        "label": "web_search",
+        "web_query": "create a budget"
+    },
+    {
+        "question": "When is the next holiday?",
+        "label": "request_info",
+        "request_query": "Which country you want to know about the next holiday?"
+    },
+    {
+        "question": "What did I learn at my last class session?",
+        "label": "context_history",
+        "context_query": "information from last class session"
+    },
+    {
+        "question": "How many days are in a year?",
+        "label": "direct_response"
+    },
+    {
+        "question": "When is the next solar eclipse?",
+        "label": "web_search",
+        "web_query": "next solar eclipse"
+    },
+    {
+        "question": "What are the health benefits of yoga?",
+        "label": "web_search",
+        "web_query": "health benefits of yoga"
+    },
+    {
+        "question": "Please remind me, what is my favorite book?",
+        "label": "context_history",
+        "context_query": "favorite book"
+    },
+    {
+        "question": "What music did I listen to yesterday?",
+        "label": "context_history",
+        "context_query": "music listened to yesterday"
+    },
+    {
+        "question": "What is the name of the tallest mountain in the world?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How many strings are there on a guitar?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What spices are typically used in Indian cuisine?",
+        "label": "web_search",
+        "web_query": "spices in Indian cuisine"
+    },
+    {
+        "question": "What kind of exercise should one do to lose weight?",
+        "label": "web_search",
+        "web_query": "exercise for weight loss"
+    },
+    {
+        "question": "When was the last time we talked about my movies?",
+        "label": "context_history",
+        "context_query": "last time discussed movies"
+    },
+    {
+        "question": "What's the title of that new TV series I was excited about?",
+        "label": "context_history",
+        "context_query": "new TV series excited about"
+    },
+    {
+        "question": "What is the distance between the Earth and the Moon?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How many planets are there in our solar system?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are the top-rated restaurants in my city?",
+        "label": "web_search",
+        "web_query": "top-rated restaurants in user's city"
+    },
+    {
+        "question": "How can I improve my memory?",
+        "label": "web_search",
+        "web_query": "ways to improve memory"
+    },
+    {
+        "question": "What is my dog's breed?",
+        "label": "context_history",
+        "context_query": "user's dog breed"
+    },
+    {
+        "question": "Where did I meet my best friend?",
+        "label": "context_history",
+        "context_query": "place where user met best friend"
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What language is spoken in Brazil?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are some popular tourist attractions in London?",
+        "label": "web_search",
+        "web_query": "popular tourist attractions in London"
+    },
+    {
+        "question": "What are some effective ways to reduce stress?",
+        "label": "web_search",
+        "web_query": "effective ways to reduce stress"
+    },
+    {
+        "question": "What did I wear to the party last month?",
+        "label": "context_history",
+        "context_query": "outfit worn to party last month"
+    },
+    {
+        "question": "When did we have our last video call?",
+        "label": "context_history",
+        "context_query": "last video call"
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are the three states of matter?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What ingredients do I need to make a chocolate cake?",
+        "label": "web_search",
+        "web_query": "ingredients for chocolate cake"
+    },
+    {
+        "question": "What are some natural remedies for headaches?",
+        "label": "web_search",
+        "web_query": "natural remedies for headaches"
+    },
+    {
+        "question": "What was the last recipe I cooked?",
+        "label": "context_history",
+        "context_query": "last recipe cooked"
+    },
+    {
+        "question": "Where did I go on vacation last year?",
+        "label": "context_history",
+        "context_query": "last year's vacation destination"
+    },
+    {
+        "question": "How do I change a light bulb?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How tall is Mount Everest?",
+        "label": "web_search",
+        "web_query": "height of Mount Everest"
+    },
+    {
+        "question": "What should I wear today?",
+        "label": "request_info",
+        "request_query": "What's the temperature in your area or which city do you reside in?"
+    },
+    {
+        "question": "Did I take my medicine?",
+        "label": "context_history",
+        "context_query": "medicine today"
+    },
+    {
+        "question": "How can I lose weight?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What is the population of China?",
+        "label": "web_search",
+        "web_query": "population of China"
+    },
+    {
+        "question": "Where should I go on vacation?",
+        "label": "request_info",
+        "request_query": "What are your preferences and interests?"
+    },
+    {
+        "question": "Did I exercise today?",
+        "label": "context_history",
+        "context_query": "exercise today"
+    },
+    {
+        "question": "What are the benefits of drinking water?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What is the distance between Earth and Mars?",
+        "label": "web_search",
+        "web_query": "distance Earth Mars"
+    },
+    {
+        "question": "How much should I tip my waiter?",
+        "label": "request_info",
+        "request_query": "In which country are you dining and what was the total bill?"
+    },
+    {
+        "question": "Did I turn off the stove?",
+        "label": "context_history",
+        "context_query": "stove today"
+    },
+    {
+        "question": "How to write a resume?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How long does it take to charge a Tesla?",
+        "label": "web_search",
+        "web_query": "Tesla charging time"
+    },
+    {
+        "question": "What kind of music do you like?",
+        "label": "request_info",
+        "request_query": "Tell me about your favorite music genres and artists."
+    },
+    {
+        "question": "Did I feed my pet?",
+        "label": "context_history",
+        "context_query": "pet feeding today"
+    },
+    {
+        "question": "What are the ingredients for making cookies?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Who won the World Series in 2021?",
+        "label": "web_search",
+        "web_query": "2021 World Series winner"
+    },
+    {
+        "question": "What movie should I watch?",
+        "label": "request_info",
+        "request_query": "What type of movies do you enjoy the most?"
+    },
+    {
+        "question": "What time did I wake up?",
+        "label": "context_history",
+        "context_query": "wake up time today"
+    },
+    {
+        "question": "How to plant tomatoes?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How old is the Earth?",
+        "label": "web_search",
+        "web_query": "age of Earth"
+    },
+    {
+        "question": "Can you recommend a laptop?",
+        "label": "request_info",
+        "request_query": "Tell me your budget and requirements for a laptop."
+    },
+    {
+        "question": "What did I buy at the store?",
+        "label": "context_history",
+        "context_query": "store purchases today"
+    },
+    {
+        "question": "What is the cooking time for a whole chicken?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Who wrote To Kill a Mockingbird?",
+        "label": "web_search",
+        "web_query": "To Kill a Mockingbird author"
+    },
+    {
+        "question": "How do I choose a college?",
+        "label": "request_info",
+        "request_query": "What are your priorities and preferences for a college?"
+    },
+    {
+        "question": "Did I lock the door this morning?",
+        "label": "context_history",
+        "context_query": "door lock today"
+    },
+    {
+        "question": "How do I fold a paper crane?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "label": "web_search",
+        "web_query": "fastest land animal"
+    },
+    {
+        "question": "How do magnets work?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are the top tourist attractions in Spain?",
+        "label": "web_search",
+        "web_query": "top tourist attractions in Spain"
+    },
+    {
+        "question": "What time is my doctor appointment?",
+        "label": "context_history",
+        "context_query": "doctor appointment"
+    },
+    {
+        "question": "How long is the Eiffel Tower?",
+        "label": "web_search",
+        "web_query": "height of the Eiffel Tower"
+    },
+    {
+        "question": "What type of music do I like?",
+        "label": "context_history",
+        "context_query": "music preference"
+    },
+    {
+        "question": "In what year was the first iPhone released?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What is the best way to grow tomatoes?",
+        "label": "web_search",
+        "web_query": "best way to grow tomatoes"
+    },
+    {
+        "question": "Is it going to rain tomorrow?",
+        "label": "request_info",
+        "request_query": "In what location you want to get a weather?"
+    },
+    {
+        "question": "What TV show should I watch today?",
+        "label": "context_history",
+        "context_query": "TV show preference"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How can I learn a new language?",
+        "label": "web_search",
+        "web_query": "learn a new language"
+    },
+    {
+        "question": "How high is Mount Everest?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What was the name of my high school?",
+        "label": "context_history",
+        "context_query": "high school name"
+    },
+    {
+        "question": "What are some effective exercise routines for weight loss?",
+        "label": "web_search",
+        "web_query": "exercise routines for weight loss"
+    },
+    {
+        "question": "How fast does light travel?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are some good restaurants in New York City?",
+        "label": "web_search",
+        "web_query": "good restaurants in New York City"
+    },
+    {
+        "question": "Where did I leave my keys?",
+        "label": "context_history",
+        "context_query": "location of keys"
+    },
+    {
+        "question": "How long does it take for the Earth to orbit the Sun?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What's a good recipe for homemade pizza?",
+        "label": "web_search",
+        "web_query": "homemade pizza recipe"
+    },
+    {
+        "question": "Who won the World Series last year?",
+        "label": "web_search",
+        "web_query": "last year World Series winner"
+    },
+    {
+        "question": "What date did I start my new job?",
+        "label": "context_history",
+        "context_query": "job start date"
+    },
+    {
+        "question": "What are the common symptoms of the common cold?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are some recommended books in mystery genre?",
+        "label": "web_search",
+        "web_query": "recommended mystery genre books"
+    },
+    {
+        "question": "What time does the supermarket close?",
+        "label": "request_info",
+        "request_query": "Which supermarket you want to know closing time?"
+    },
+    {
+        "question": "What's the fastest land animal?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How can I improve my memory?",
+        "label": "web_search",
+        "web_query": "improve memory"
+    },
+    {
+        "question": "When is daylight saving time?",
+        "label": "web_search",
+        "web_query": "daylight saving time"
+    },
+    {
+        "question": "Where is the nearest gas station?",
+        "label": "request_info",
+        "request_query": "Please provide your current location to find the nearest gas station."
+    },
+    {
+        "question": "What's the best way to clean a carpet?",
+        "label": "web_search",
+        "web_query": "best way to clean a carpet"
+    },
+    {
+        "question": "What is the combustion temperature of diesel?",
+        "label": "web_search",
+        "web_query": "temperature of diesel combustion"
+    },
+    {
+        "question": "Who won the World Series last year?",
+        "label": "web_search",
+        "web_query": "last year's World Series winner"
+    },
+    {
+        "question": "What does ASAP stand for?",
+        "label": "direct_response"
+    },
+    {
+        "question": "When does daylight saving time start?",
+        "label": "web_search",
+        "web_query": "start of daylight saving time"
+    },
+    {
+        "question": "How do you make lasagna?",
+        "label": "web_search",
+        "web_query": "lasagna recipe"
+    },
+    {
+        "question": "What is the formula for calculating the area of a triangle?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What is the process for applying to college?",
+        "label": "web_search",
+        "web_query": "college application process"
+    },
+    {
+        "question": "What movie did we watch last week?",
+        "label": "context_history",
+        "context_query": "movie last week"
+    },
+    {
+        "question": "What's the tallest building in the world?",
+        "label": "web_search",
+        "web_query": "tallest building in the world"
+    },
+    {
+        "question": "What are some symptoms of the flu?",
+        "label": "web_search",
+        "web_query": "flu symptoms"
+    },
+    {
+        "question": "Who is the author of To Kill a Mockingbird?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What breed is my dog?",
+        "label": "request_info",
+        "request_query": "Can you provide a description or a photo of your dog?"
+    },
+    {
+        "question": "What should I wear to the party tonight?",
+        "label": "context_history",
+        "context_query": "the party tonight"
+    },
+    {
+        "question": "What is the current price of Bitcoin?",
+        "label": "web_search",
+        "web_query": "current Bitcoin price"
+    },
+    {
+        "question": "How long is a marathon?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How do I take care of a cactus?",
+        "label": "web_search",
+        "web_query": "cactus care"
+    },
+    {
+        "question": "How many ounces are in a pound?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are you doing tomorrow?",
+        "label": "context_history",
+        "context_query": "plans tomorrow"
+    },
+    {
+        "question": "What is the current temperature?",
+        "label": "request_info",
+        "request_query": "In what location you want to get the current temperature?"
+    },
+    {
+        "question": "Who is on the $50 bill?",
+        "label": "web_search",
+        "web_query": "person on the $50 bill"
+    },
+    {
+        "question": "What is the human body's largest organ?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What time do the gym's swimming hours end?",
+        "label": "web_search",
+        "web_query": "gym swimming hours"
+    },
+    {
+        "question": "How do I get to your house?",
+        "label": "request_info",
+        "request_query": "Where are you currently located?"
+    },
+    {
+        "question": "What countries are in the European Union?",
+        "label": "web_search",
+        "web_query": "countries in the European Union"
+    },
+    {
+        "question": "What did you think of the performance?",
+        "label": "context_history",
+        "context_query": "the performance"
+    },
+    {
+        "question": "How do I cook a perfectly boiled egg?",
+        "label": "web_search",
+        "web_query": "cooking a perfectly boiled egg"
+    },
+    {
+        "question": "What time does my favorite show air?",
+        "label": "request_info",
+        "request_query": "Which show are you referring to?"
+    },
+    {
+        "question": "When will the next solar eclipse be visible?",
+        "label": "web_search",
+        "web_query": "next solar eclipse visibility"
+    },
+    {
+        "question": "Who won the World Series in 2020?",
+        "label": "web_search",
+        "web_query": "2020 World Series winner"
+    },
+    {
+        "question": "What is the temperature outside?",
+        "label": "request_info",
+        "request_query": "In what location do you want to know the temperature?"
+    },
+    {
+        "question": "What movies did I watch last week?",
+        "label": "context_history",
+        "context_query": "movies watched last week"
+    },
+    {
+        "question": "How many planets are there in the solar system?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What do pandas eat?",
+        "label": "web_search",
+        "web_query": "pandas' diet"
+    },
+    {
+        "question": "When is my dentist appointment?",
+        "label": "context_history",
+        "context_query": "dentist appointment"
+    },
+    {
+        "question": "Who is the CEO of Tesla?",
+        "label": "web_search",
+        "web_query": "CEO of Tesla"
+    },
+    {
+        "question": "Where did I leave my keys?",
+        "label": "context_history",
+        "context_query": "keys location"
+    },
+    {
+        "question": "How do you say 'hello' in Japanese?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What were the lottery numbers from last night?",
+        "label": "web_search",
+        "web_query": "last night lottery numbers"
+    },
+    {
+        "question": "What clothes should I wear tomorrow?",
+        "label": "request_info",
+        "request_query": "What is the weather forecast for your location tomorrow?"
+    },
+    {
+        "question": "Where did I park my car?",
+        "label": "context_history",
+        "context_query": "car parking location"
+    },
+    {
+        "question": "What is a prime number?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How tall is Mount Everest?",
+        "label": "web_search",
+        "web_query": "Mount Everest height"
+    },
+    {
+        "question": "What time is sunset today?",
+        "label": "request_info",
+        "request_query": "In what location are you asking for the sunset time?"
+    },
+    {
+        "question": "What did I do yesterday?",
+        "label": "context_history",
+        "context_query": "activities from yesterday"
+    },
+    {
+        "question": "Can dogs eat chocolate?",
+        "label": "direct_response"
+    },
+    {
+        "question": "When was The Great Wall of China built?",
+        "label": "web_search",
+        "web_query": "Great Wall of China construction date"
+    },
+    {
+        "question": "What time is my meeting tomorrow?",
+        "label": "context_history",
+        "context_query": "meeting time tomorrow"
+    },
+    {
+        "question": "Why is the sky blue?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What's the average lifespan of a mayfly?",
+        "label": "web_search",
+        "web_query": "mayfly average lifespan"
+    },
+    {
+        "question": "What allergies do I have?",
+        "label": "context_history",
+        "context_query": "user's allergies"
+    },
+    {
+        "question": "What's the wifi password?",
+        "label": "context_history",
+        "context_query": "wifi password"
+    },
+    {
+        "question": "How many books are in the Harry Potter series?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What is the best route to get to work?",
+        "label": "request_info",
+        "request_query": "What is your starting location and destination?"
+    },
+    {
+        "question": "What did I discuss with my friend last night?",
+        "label": "context_history",
+        "context_query": "last night's conversation with friend"
+    },
+    {
+        "question": "What is the tallest building in the world?",
+        "label": "web_search",
+        "web_query": "tallest building in the world"
+    },
+    {
+        "question": "How many days are in a leap year?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What's the score of my favorite sports team?",
+        "label": "request_info",
+        "request_query": "Which sports and team do you want the score updates for?"
+    },
+    {
+        "question": "Did I mention who my favorite author is?",
+        "label": "context_history",
+        "context_query": "favorite author"
+    },
+    {
+        "question": "What process plants use to make food?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What events happened on this day in history?",
+        "label": "web_search",
+        "web_query": "events on this day in history"
+    },
+    {
+        "question": "What did I say I was planning to wear?",
+        "label": "context_history",
+        "context_query": "planning to wear"
+    },
+    {
+        "question": "What are the closest planets to Earth?",
+        "label": "web_search",
+        "web_query": "closest planets to Earth"
+    },
+    {
+        "question": "What are some good movies to watch?",
+        "label": "web_search",
+        "web_query": "good movies to watch"
+    },
+    {
+        "question": "How far away is the nearest gas station?",
+        "label": "request_info",
+        "request_query": "Your current location"
+    },
+    {
+        "question": "When is my doctor's appointment?",
+        "label": "context_history",
+        "context_query": "doctor's appointment"
+    },
+    {
+        "question": "How many canine teeth do adult humans have?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Where do Loggerhead sea turtles lay their eggs?",
+        "label": "web_search",
+        "web_query": "Loggerhead sea turtles egg laying location"
+    },
+    {
+        "question": "Is there a cafe nearby?",
+        "label": "request_info",
+        "request_query": "Providing your current location"
+    },
+    {
+        "question": "What book am I currently reading?",
+        "label": "context_history",
+        "context_query": "currently reading"
+    },
+    {
+        "question": "What does NASA stand for?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How does the moon control ocean tides?",
+        "label": "web_search",
+        "web_query": "moon aqnd ocean tides"
+    },
+    {
+        "question": "What are my Netflix password credentials?",
+        "label": "context_history",
+        "context_query": "Netflix password credentials"
+    },
+    {
+        "question": "What type of music am I currently into?",
+        "label": "request_info",
+        "request_query": "Which genre do you like?"
+    },
+    {
+        "question": "What are the building blocks of proteins?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What factors determine a diamond's value?",
+        "label": "web_search",
+        "web_query": "factors in determining a diamond's value"
+    },
+    {
+        "question": "What's a good recipe for pizza dough?",
+        "label": "web_search",
+        "web_query": "pizza dough recipe"
+    },
+    {
+        "question": "Where did I say I wanted for travel on my next vacation?",
+        "label": "context_history",
+        "context_query": "next vacation"
+    },
+    {
+        "question": "Who discovered electricity?",
+        "label": "web_search",
+        "web_query": "discovered electricity"
+    },
+    {
+        "question": "What is evaporation?",
+        "label": "direct_response"
+    },
+    {
+        "question": "When are the timezone differences for New York and California?",
+        "label": "web_search",
+        "web_query": "time difference between New York and California"
+    },
+    {
+        "question": "What did I say I cooked in the last chat?",
+        "label": "context_history",
+        "context_query": "cooked last chat"
+    },
+    {
+        "question": "What vitamin does the Sun provide?",
+        "label": "web_search",
+        "web_query": "vitamin from the Sun"
+    },
+    {
+        "question": "What does FM and AM mean in radio?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What is my grocery list?",
+        "label": "context_history",
+        "context_query": "grocery list"
+    },
+    {
+        "question": "How old is Earth?",
+        "label": "web_search",
+        "web_query": "age of Earth"
+    },
+    {
+        "question": "What's the best place to visit in Canada?",
+        "label": "web_search",
+        "web_query": "best place to visit in Canada"
+    },
+    {
+        "question": "Where can I find my favorite cafe?",
+        "label": "request_info",
+        "request_query": "The location of your favorite cafe and your current location"
+    },
+    {
+        "question": "What is the square root of 49?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Who won the Olympics last year?",
+        "label": "web_search",
+        "web_query": "Olympics last year winner"
+    },
+    {
+        "question": "What is it like to travel to space?",
+        "label": "web_search",
+        "web_query": "experience of traveling in space"
+    },
+    {
+        "question": "When did you tell me about Sarah's birthday?",
+        "label": "context_history",
+        "context_query": "Sarah's birthday"
+    },
+    {
+        "question": "Difference between weather and climate?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Where was a hamburger invented?",
+        "label": "web_search",
+        "web_query": "hamburger invented country"
+    },
+    {
+        "question": "My cat is special breed, is there any history of allergy?",
+        "label": "request_info",
+        "request_query": "What type of cat breed do you have?"
+    },
+    {
+        "question": "Can you find a lobster fact from early in the conversation?",
+        "label": "context_history",
+        "context_query": "lobster fact"
+    },
+    {
+        "question": "Formula for calculation distance under free fall?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Is universe infinite?",
+        "label": "web_search",
+        "web_query": "Is the universe infinite"
+    },
+    {
+        "question": "Which theme parks should I plan to visit?",
+        "label": "request_info",
+        "request_query": "What geographic location and age group you are targetting in your travels"
+    },
+    {
+        "question": "What suggestion did I provide for Anext dinner?",
+        "label": "context_history",
+        "context_query": "suggestion next dinner"
+    },
+    {
+        "question": "What are some effective tips for learning languages at home?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What language learning apps and platforms can I use at home?",
+        "label": "web_search",
+        "web_query": "language learning apps and platforms"
+    },
+    {
+        "question": "How long should I spend on learning a language each day?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Did he mention which language he was most interested in learning?",
+        "label": "context_history",
+        "context_query": "language interest"
+    },
+    {
+        "question": "What are her short-term and long-term language learning goals?",
+        "label": "context_history",
+        "context_query": "language learning goals"
+    },
+    {
+        "question": "How can I find a language partner to practice with?",
+        "label": "web_search",
+        "web_query": "find a language partner"
+    },
+    {
+        "question": "Will practicing listening skills benefit in language learning?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How to balance grammar, vocabulary, listening, and speaking skills in language learning?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How do I determine my language learning proficiency?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are the engaging ways to incorporate reading in my language learning journey?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Did Judy share her intended start date for her language learning plan?",
+        "label": "context_history",
+        "context_query": "start date"
+    },
+    {
+        "question": "Is consistently watching foreign language movies helpful in learning a new language?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How do I overcome language learning plateaus?",
+        "label": "web_search",
+        "web_query": "overcoming language learning plateaus"
+    },
+    {
+        "question": "Can you recommend any YouTube channels to enhance my language learning experience?",
+        "label": "web_search",
+        "web_query": "language learning YouTube channels"
+    },
+    {
+        "question": "Did David say he planned to take a language course alongside his home study?",
+        "label": "context_history",
+        "context_query": "language course"
+    },
+    {
+        "question": "Is keeping a language learning journal helpful?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Which factors contribute to making language learning lessons engaging?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Do music and language learning go together?",
+        "label": "web_search",
+        "web_query": "music and language learning benefits"
+    },
+    {
+        "question": "How do I know when I'm ready to advance to the next stage in language learning?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Are there benefits in learning more than one language at a time?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Did he outline a specific self-improvement goal?",
+        "label": "context_history",
+        "context_query": "specific self-improvement goal"
+    },
+    {
+        "question": "What is the most effective way to set self-improvement goals?",
+        "label": "web_search",
+        "web_query": "setting self-improvement goals effectively"
+    },
+    {
+        "question": "Are daily habits influential in personal development and self-improvement?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What kind of goals do they have for their personal growth?",
+        "label": "context_history",
+        "context_query": "personal growth goals"
+    },
+    {
+        "question": "Are there any tools or apps to track self-improvement progress?",
+        "label": "web_search",
+        "web_query": "apps for self-improvement tracking"
+    },
+    {
+        "question": "Did we talk about incorporating fitness and exercise into her self-improvement plan?",
+        "label": "context_history",
+        "context_query": "fitness and exercise"
+    },
+    {
+        "question": "Is adjusting sleep habits important for self-improvement?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What makes a self-improvement plan more realistic and achievable?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Which techniques can help individuals maintain motivation and focus for self-improvement?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Did he mention any barriers holding him back from self-improvement?",
+        "label": "context_history",
+        "context_query": "barriers"
+    },
+    {
+        "question": "Do personality types have an impact on self-improvement success?",
+        "label": "web_search",
+        "web_query": "personality types and self-improvement"
+    },
+    {
+        "question": "Can overcoming current limitations strengthen his self-improvement pathway?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How to tackle procrastination when working on self-improvement goals?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Did he express an intention to work with a coach or therapist for self-improvement?",
+        "label": "context_history",
+        "context_query": "coach or therapist"
+    },
+    {
+        "question": "Should she break down her long-term self-improvement goals into smaller steps?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What role does visualization play in self-improvement?",
+        "label": "web_search",
+        "web_query": "visualization and self-improvement"
+    },
+    {
+        "question": "How can I track progress objectively with my self-improvement plan?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Did she discuss feedback from her peers about her strengths and weaknesses?",
+        "label": "context_history",
+        "context_query": "strengths and weaknesses"
+    },
+    {
+        "question": "Is setting deadlines effective in pushing one's self-improvement journey forward?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Which self-improvement resources/practices did she find most helpful?",
+        "label": "context_history",
+        "context_query": "self-improvement resources"
+    },
+    {
+        "question": "What food is best to eat in the morning?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Are there any near offline events today?",
+        "label": "web_search",
+        "web_query": "local events today"
+    },
+    {
+        "question": "What did I eat at lunch recently?",
+        "label": "context_history",
+        "context_query": "recent lunch"
+    },
+    {
+        "question": "How do I spark interesting conversations with others?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are the top-rated/books movies right now?",
+        "label": "web_search",
+        "web_query": "top books/movies right now"
+    },
+    {
+        "question": "How did I spend my time last weekend?",
+        "label": "context_history",
+        "context_query": "last weekend activities"
+    },
+    {
+        "question": "What are some popular holiday destinations?",
+        "label": "web_search",
+        "web_query": "popular holiday destinations"
+    },
+    {
+        "question": "What are ways to improve time management skills?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are the best ways to relieve stress?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How did I react to my last month's stress?",
+        "label": "context_history",
+        "context_query": "last month stress"
+    },
+    {
+        "question": "What words did I use in my recent interactions?",
+        "label": "context_history",
+        "context_query": "recent interactions words"
+    },
+    {
+        "question": "Who won a soccer game last night?",
+        "label": "web_search",
+        "web_query": "soccer game last night"
+    },
+    {
+        "question": "What are unique baby name ideas?",
+        "label": "web_search",
+        "web_query": "unique baby name ideas"
+    },
+    {
+        "question": "How did I celebrate my birthday last year?",
+        "label": "context_history",
+        "context_query": "last birthday celebration"
+    },
+    {
+        "question": "Where did I find my last job?",
+        "label": "context_history",
+        "context_query": "finding last job"
+    },
+    {
+        "question": "How can I save on my monthly bills?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are tips for waking up early?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Who visited me a day before yesterday?",
+        "label": "context_history",
+        "context_query": "visitor day before yesterday"
+    },
+    {
+        "question": "What recipes did I recently try?",
+        "label": "context_history",
+        "context_query": "recent recipes"
+    },
+    {
+        "question": "How can I improve my work productivity?",
+        "label": "direct_response"
+    },
+    {
+        "question": "Why is drinking water throughout the day important?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What was my last exercise routine?",
+        "label": "context_history",
+        "context_query": "last exercise routine"
+    },
+    {
+        "question": "What flowers bloom in the spring?",
+        "label": "web_search",
+        "web_query": "spring blooming flowers"
+    },
+    {
+        "question": "How to make friends in a new city?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What online courses can I take to learn new skills?",
+        "label": "web_search",
+        "web_query": "online courses for new skills"
+    },
+    {
+        "question": "Where did I buy my favorite shoes?",
+        "label": "context_history",
+        "context_query": "favorite shoes purchase"
+    },
+    {
+        "question": "What gifts did I give my friends last year?",
+        "label": "context_history",
+        "context_query": "last year friend's gifts"
+    },
+    {
+        "question": "What are some useful apps?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How often should I exercise?",
+        "label": "direct_response"
+    },
+    {
+        "question": "When was my last doctor's appointment?",
+        "label": "context_history",
+        "context_query": "last doctor appointment"
+    },
+    {
+        "question": "What new adventure did I try one month ago?",
+        "label": "context_history",
+        "context_query": "last month adventure"
+    },
+    {
+        "question": "How can I decorate my room?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What cuisine did I enjoy last week?",
+        "label": "context_history",
+        "context_query": "last week cuisine"
+    },
+    {
+        "question": "How can I improve my decision-making skills?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are the latest fashion trends?",
+        "label": "web_search",
+        "web_query": "latest fashion trends"
+    },
+    {
+        "question": "How to become good at small talks?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What places will offer discounts on Black Friday?",
+        "label": "web_search",
+        "web_query": "Black Friday discounts"
+    },
+    {
+        "question": "What do I plan to do outdoors next weekend?",
+        "label": "context_history",
+        "context_query": "next weekend outdoor plans"
+    },
+    {
+        "question": "What symptoms did I have in past?",
+        "label": "context_history",
+        "context_query": "past symptoms"
+    },
+    {
+        "question": "How can I make my home eco-friendly?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What are some effective ways to calm your mind?",
+        "label": "direct_response"
+    },
+    {
+        "question": "What was my average screen time last month?",
+        "label": "context_history",
+        "context_query": "last month screen time"
+    },
+    {
+        "question": "Who my last 5 Youtube subscribed channels?",
+        "label": "context_history",
+        "context_query": "5 recent Youtube subscriptions"
+    },
+    {
+        "question": "How can I remember information easily?",
+        "label": "direct_response"
+    },
+    {
+        "question": "How much money did I save by cooking at home last month?",
+        "label": "context_history",
+        "context_query": "last month cooking savings"
+    },
+    {
+        "question": "What does my sleep pattern, in the past month?",
+        "label": "context_history",
+        "context_query": "past month sleep pattern"
+    },
+    {
+        "question": "What precautionary measures should I take during flu-",
+        "label": "direct_response"
+    }
+]
