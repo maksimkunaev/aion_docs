@@ -1,4 +1,4 @@
-# AI Knowledge Graph Demo Dialogue
+# Fake Dialogue with potential proto-AI Knowledge Graph Demo Dialogue
 
 **User:** Hey, I heard you're different from other AI models. What makes you special?
 
