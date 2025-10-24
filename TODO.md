@@ -1,88 +1,47 @@
-# TODO List: From Idea to Working Proof
+# TODO: Common Sense Reasoning Engine
 
-**State-based decomposition is the scaffolding, not the goal**. Here's what needs to happen:
+## Priority 1: Rule Learning
+- [ ] Extract rules from state transition sequences
+  - Input: `{alice: pos_x=5} → {alice: pos_x=10}` paired with `{bob: pos_x=3} → {bob: pos_x=8}`
+  - Output: Generalized rule `move(X, target) := X.pos = target.pos`
+  - Generalization test: Apply to unseen entity (charlie)
 
-## Phase 1: Learning (Can the system learn rules?)
-- [ ] **Build rule learner from state sequences**
-  - Input: 10-20 observed state transitions (e.g., alice pos 5→10, garden pos 10)
-  - Output: Inferred rule (e.g., "move(X, Y) makes X.pos = Y.pos")
-  - Success: System generalizes to new entities/locations not in training
+- [ ] Learn rules for 3+ action types (move, take, drop)
+  - Each action learns different transformation pattern
+  - Verify: Not memorizing, actual generalization
 
-- [ ] **Test on 3 different action types**
-  - Move, take, drop (or similar)
-  - Show it learns different patterns, not memorizing
+## Priority 2: State Matching
+- [ ] Build flexible state matching (not exact dict comparison)
+  - Current: fails if `pos_x` differs by 1
+  - Fix: Match relevant properties, ignore noise
+  - Test: Match similar states with variations
 
-## Phase 2: Concept Formation (How does the system abstract?)
-- [ ] **Build symbol grounding from sensor data (simulated)**
-  - Input: Noisy observations (pixel grid, point cloud, etc.)
-  - Output: Discrete symbols (alice, garden, box)
-  - Success: Works on data it hasn't seen (generalization test)
+## Priority 3: Variable Concept Counts
+- [ ] System works with any number of concepts
+  - 2 concepts (alice, garden) → works
+  - 5 concepts (alice, bob, garden, house, tree) → works
+  - 20 concepts → works
+  - No hardcoding entity types
 
-- [ ] **Build concept detector from sequences**
-  - Input: State sequence showing growth/decay/change
-  - Output: New concept name (e.g., "ripening" from color changes)
-  - Success: Labels new instances correctly
+## Priority 4: Pattern Detection
+- [ ] Detect patterns in state sequences (growth, decay, movement, etc)
+  - Input: sequence `[{size: 1}, {size: 1.5}, {size: 2}]`
+  - Output: Detected pattern = "growth"
+  
+- [ ] Classify new sequences by detected patterns
+  - Given unseen sequence, identify which pattern it matches
 
-## Phase 3: Reasoning Integration
-- [ ] **Combine learned rules + grounded concepts**
-  - Your POC uses hardcoded rules
-  - Replace with: learned rules + learned concepts
-  - Success: Still solves the planning problem
+## Priority 5: Multi-step Planning
+- [ ] Extend planner from 1-step to N-step sequences
+  - Current: "alice move to garden"
+  - Target: "alice move to tree → climb tree → take apple"
 
-- [ ] **Test on 1 multi-step scenario**
-  - Not just "move alice to garden"
-  - Something like: "Get apple from tree" (move + climb + take)
-  - Success: Plans multi-step sequence correctly
+- [ ] Chain learned rules to reach goal state
 
-## Phase 4: Validation
-- [ ] **Run on reasoning test suite**
-  - Take your hallucination test examples
-  - Show it answers correctly (or fails predictably)
-  - Document what it CAN and CANNOT do
+## Priority 6: Validation
+- [ ] Test on reasoning test suite
+  - Causal: "Why did X happen?"
+  - Planning: "How to achieve goal Y?"
+  - Spatial: "Where is alice relative to bob?"
 
----
-
-## Critical unknowns to resolve first
-
-Before coding, answer these:
-
-1. **Concept formation approach?**
-   - Clustering raw observations?
-   - LLM-assisted annotation?
-   - Hand-designed feature extractors?
-
-2. **Rule learning method?**
-   - Inductive logic programming?
-   - Symbolic regression?
-   - Neural network + interpretation?
-   - Simple pattern matching?
-
-3. **Sensor data → symbols bridge?**
-   - Simulated images → coordinates?
-   - Simulated point clouds?
-   - Or just synthetic state sequences?
-
-Pick **ONE** for each. Don't try all at once.
-
----
-
-## Minimal viable path (2-3 weeks)
-
-1. **Week 1:** Rule learner (Phase 1)
-   - Hardcode 5 action examples
-   - Build learner to infer 1 rule type
-   - Test generalization
-
-2. **Week 2:** Concept grounding (Phase 2)
-   - Simulate "observation → symbol" pipeline
-   - Build simple detector (e.g., color threshold → "apple")
-   - Show it labels new images
-
-3. **Week 3:** Integration + validation
-   - Plug learned rules + grounded concepts into your POC
-   - Run test suite
-   - Document success/failure modes
-
----
-
-**Which one should you start with?** Rule learning is easier and unblocks everything else.
+- [ ] Document what works / fails
