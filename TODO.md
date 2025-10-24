@@ -1,4 +1,5 @@
-# TODO: Common Sense Reasoning Engine
+# TODO List: From Idea to Working Proof
+
 
 ## Priority 1: Rule Learning
 - [ ] Extract rules from state transition sequences
